@@ -5,10 +5,11 @@ header{
 	background-size:cover; 
 	background-repeat: no-repeat;
 	opacity: 0.9;
+	background-color:rgba(137,20,40,0.7);
+	
 	
 }
-h1{	animation-duration: 3s;
-  	animation-name: slidein;
+h1{
 	padding-top: 10%;
 	padding-bottom: 5%;
 
@@ -22,7 +23,7 @@ h3{color: #64ABFF;}
 
 h4{color: #7893AD;}
 .logo{
-	width: 40%;
+	width: 45%;
 	height: 10%;
 	padding: 2%;
 }

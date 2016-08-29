@@ -1,0 +1,18 @@
+body{
+	background-image: url("../image/large.jpg");
+	background-size:cover; 
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	background-color:rgba(137,20,40,0.7);
+	height: 100%;
+}
+h1{
+	color: black;
+}
+
+form{
+	background-color: white !important;
+	border-top: 2px solid #14117D;
+}
+
+span{color: red;}
