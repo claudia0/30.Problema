@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="css/icomoon.css">
 		<link rel="shortcut icon" href="favicon.ico" type="image/png">
 		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/queries.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 	</head>
 	<body>
 		<header>
@@ -29,7 +31,7 @@
 			                        <ul class="nav nav-tabs">
 			                            <li><a href="#navbar-brand">Qué me ofrece</a></li>
 			                            <li><a href="">cómo funciona</a></li>
-			                            <li><a href="">Por qué usarlo</a></li>
+			                            <li><a href="#fna">Por qué usarlo</a></li>
 			                            <li><a href="contact.html">Contáctanos</a></li>
 			                        </ul>
 			                    </div>
@@ -49,7 +51,34 @@
             			<h2 class="site_title animated fadeInUp">PRUEBA GRATUITA</h2>
             		</div>
             		<div class="col-md-6 col-xs-12 text-center ">
-            			<button class="btnn-2">Pruebalo gratis</button>
+            			<button type="button" class="btnn-2" data-toggle="modal" data-target="#mymodal">Pruebalo gratis</button>
+            		</div>
+            		<div class="modal fade" id="mymodal">
+            			<div class="modal-dialog">
+            				<div class="modal-content">
+	            				<div class="modal-header">
+	            					<h2>Formulario User Testing 360</h2>
+	            				</div>
+	            				<div class="modal-body">
+	            					<form><!--nunca supe por que no me agarro un background directo en form, le tuve que poner un div a todo-->
+			                			<h2>Formulario User Testing 360</h2>
+			  							<div class="form-group">
+			    							<label for="name">Nombre<span>*</span></label>
+											<input type="name" id="email">
+			  							</div>
+			  							<div class="form-group">
+			    							<label for="email">Email<span>*</span></label>
+			    							<input type="email" id="pwd">
+			  							</div>
+										<button class="btn btn-primary">Enviar Email</button><!--mi boton azul-->
+									</form>
+	            				</div>
+	            				<div class="modal-footer">
+	            					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	            					<small>Powered by Equipo Laboratoria</small>
+	            				</div>
+	            			</div>
+            			</div>
             		</div>
             	</div>
             </div><!--cierre de mi container-->	
@@ -116,12 +145,12 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-6 col-xs-12 fdo-3 t-pdg"><!--aqui va un background-->
-						<span class="c-azl">icon-pencil</span>
+						<span class="icon-pencil c-azl"></span>
 						<img class="frm-2" src="image/separador.png" alt="separador">
 					</div>
 					<div class="col-md-6 col-xs-12">
 						<hr>
-						<h2 id="txt-blk">Lo quiero ¿Qué hago?</h2>
+						<a name="fna"><h3 id="txt-blk">Lo quiero ¿Qué hago?</h3></a>
 						<h4>Paso 1: Envíanos tu link</h4>
 						<p>Al darle click al botón de prueba, coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
 						<h4>Paso 2: Describe a tu público objetivo</h4>
@@ -172,14 +201,14 @@
             			<p><small>Tel.: 989637925</small></p>	
             		</div>
             		<div class="col-md-3 col-xs-12">
-            			<span>icon-facebook</span>
+            			<a href="www.facebook.com"><span class="icon-facebook"></span></a>
+            			<a href="www.twitter.com"><span class="icon-twitter"></span></a>
             			<p><small>Copyright 2015 - User Testing 360</small></p>
             		</div>
             	</div>
 			</div>
 		</footer>
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"</script>
-		=></script>
+			<script src="js/jquery.min.js"></script>
+			<script src="js/bootstrap.js"</script>
 	</body>
 </html>

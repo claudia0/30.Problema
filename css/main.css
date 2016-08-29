@@ -6,7 +6,7 @@ header{
 	background-repeat: no-repeat;
 	opacity: 0.9;
 	background-color:rgba(137,20,40,0.7);
-	
+
 	
 }
 h1{
@@ -94,8 +94,8 @@ iframe{
 	background-repeat:no-repeat; 
 	height: 50%;
 }
-#text-blk {
-	color: black !important;
+#text-blk h3{
+	color: black;
 	font-size: 2em;
 }
 .fdo-4{
@@ -108,4 +108,12 @@ iframe{
 
 .fdo-5 small{
 	color: #fff;
+}
+.icon-facebook{
+	font-size: 3em;
+	color: #4A72B9;
+}
+.icon-twitter{
+	font-size: 3em;
+	color: #4A72B9;
 }
