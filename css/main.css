@@ -7,7 +7,8 @@ header{
 	opacity: 0.9;
 	
 }
-h1{
+h1{	animation-duration: 3s;
+  	animation-name: slidein;
 	padding-top: 10%;
 	padding-bottom: 5%;
 
@@ -36,13 +37,9 @@ h4{color: #7893AD;}
 	background-color: #4A72B9;
 	opacity: 0.9;
 }
-.btnn-1{
-	background-color: #fff;
-	position: relative;
-	left: 50%;
-
+.azl{
+	font-size: 3em;
 }
-
 .btnn-2{
 	background-color: transparent;
 	padding: 2%;
@@ -59,7 +56,7 @@ h4{color: #7893AD;}
 	box-shadow:1px 1px 10px;
 	border-radius: 100%;
 	color: #587EB7;
-	background-color: #FFF; 
+	background-color: #FFF;
 }
 
 .pdg-2{/*es el padding de la flecha azul*/
@@ -76,17 +73,25 @@ h4{color: #7893AD;}
   content: "\e011";
 }
 
-.frm{/*es la clase del formulario*/
+.frm{/*es el poligono*/
 	position: relative;
 	top: -70px;
 	left: 50%;
 }
+iframe{
+	width: 100%;
+	height: 40%;
+}
+.frm-2{
+	position: relative;
+	bottom: -80%;
+	left: 78%;
+}
 .fdo-3{/*es el fondo del col-6*/
 	background-image: url("../image/sec-2.jpg");
-	background-size: contain;
+	background-size: cover;
 	background-repeat:no-repeat; 
 	height: 50%;
-	width: 50%;
 }
 #text-blk {
 	color: black !important;
