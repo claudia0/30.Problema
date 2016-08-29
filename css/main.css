@@ -1,0 +1,84 @@
+
+
+header{
+	background-image: url("../image/large.jpg");
+	background-size:contain; 
+	background-repeat: no-repeat;
+	opacity: 0.9;
+}
+h1{padding-top: 20%;}
+
+h1,h2{
+	color: white;
+	
+}
+h3{color: #64ABFF;}
+
+h4{color: #7893AD;}
+.logo{
+	width: 40%;
+	height: 10%;
+	padding: 2%;
+}
+
+.logo-2{
+	width: 45%;
+	height: 15%;
+	padding: 2%;
+
+}
+.fdo-2{
+	background-color: #587EB7;
+}
+
+.btnn-2{
+	background-color: transparent;
+	padding: 1%;
+	border-radius: 2%;
+	border: 1px solid #fff;
+	color: #fff;
+	float: left;
+	margin-top: 20px;
+}
+
+.pdg-2{/*es el padding de la flecha azul*/
+	padding-left: 40%;
+	
+}
+.pdg{ padding: 3%; }
+
+.t-pdg{
+	margin-top:4%; 
+}
+
+.icon-video:before {
+  content: "\e011";
+}
+
+.frm{/*es la clase del formulario*/
+	position: relative;
+	top: -70px;
+	left: 50%;
+}
+
+.fdo-3{/*es el fondo del col-6*/
+	background-image: url("../image/sec-2.jpg");
+	background-size: contain;
+	background-repeat:no-repeat; 
+	height: 50%;
+	width: 50%;
+}
+#text-blk {
+	color: black !important;
+	font-size: 2em;
+}
+.fdo-4{
+	background-color: #74A3DB;
+}
+.fdo-5{
+	background-color: #000;
+}
+
+.fdo-5 small{
+	color: white;
+}
