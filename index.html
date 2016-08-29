@@ -5,15 +5,15 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" href="css.icomoon.css">
+		<link rel="stylesheet" href="css/icomoon.css">
 	</head>
 	<body>
 		<header>
 			<div class="container-fluid">
-				<nav class="navbar navbar-default navbar-fixed-to" role="navigation">
+				<nav class="navbar navbar-fixed-to" role="navigation">
 					<div class="row form-group">
 						<div class="col-md-5 col-xs-12"><!--aqui va mi portafolio-->
-							<a href=""><img class="logo" src="image/logo-2.jpg" alt="logo"></a>
+							<a href="#lgo"><img class="logo" src="image/logo-2.jpg" alt="logo"></a>
 						</div>
             			<div class="col-md-7 col-ms-12 col-xs-12"><!--aqui va mi menú-->
                    			<div class="navbar-header">
@@ -52,7 +52,7 @@
             	</div>
             </div><!--cierre de mi container-->	
         </header>
-       	<section>
+        <section>
         	<div class="container">
             	<div class="row">
             		<div class="col-md-12 col-xs-12 text-center">
@@ -62,39 +62,43 @@
             		</div>
             	</div>
             	<div class="row pdg">
-            		<div class="col-md-4 col-xs-12 text-center">
+            		<div class="col-md-4 col-xs-12 text-center"><!--aqui empiezan los botones en circulo-->
             			<div>
-            				<span class="icon-video"></span>
+            				<button class="cir"><span class="icon-video cir"></span></button>
             				<h4>Pruebalo<br>gratis</h4>
             				<p>Obtén un primer video screencast de un<br>usuario navegando tu página</p>
             			</div>
             		</div>
             		<div class="col-md-4 col-xs-12 text-center">
             			<div>
-            				<span class="icon-video"></span>
+            				<button class="cir"><span class="icon-clock"></span></button>
             				<h4>Compra el<br>servicio completo</h4>
             				<p>Si te gustó, compra nuestro servicio<br>completo que incluye 7 videos y feedback.</p>
             			</div>
             		</div>
             		<div class="col-md-4 col-xs-12 text-center">
             			<div>
-            				<span class="icon-video"></span>
+            				<button class="cir"><span class="icon-documents"></span></button>
             				<h4>Obtén el resultado<br>en 1 día</h4>
             				<p>Te haremos llegar los videos y el feedback<br> completo el mismo día.</p>
             			</div>
             		</div>
             	</div>
 				<div class="row">
-					<div class="col-md- col-xs-12">
-						<hr>
-						<a class="frm" href="">
-							<img src="image/separador.png" alt="separador">
-						</a>
+					<div class="col-md-12 col-xs-12">
+						<div class="btnn-1">
+							<hr>
+							<button data-togle="modal" data-target="#mi-formulario"><img class="btnn-1" src="image/separador.png" alt="separador"></button>
+						</div>
+						<div class="modal fade" id="mi-formulario" tabindex="-1" role="dialog" aria-labelliedby="myModallabel" aria-hidden="true">
+						>
+							
+						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-xs-12"><!--aquiva mi ejemplo de user testing-->
-						<h3>Ejemplo de</h3><img class="logo-2" src="image/logo-2.jpg">
+						<h3>Ejemplo de<img class="logo-2" src="image/logo-2.jpg"></h3>
 						<p>En este video te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia de usario de<br><a href="">mimediamanzana.com</a>
 						El objetivo de User Testing 360 es identificar situaciones confusas de los usuarios en su web y describir soluciones, que garanticen una experiencia de uso satisfactorio.</p>
 						<img class="pdg-2" src="image/flecha.png" alt="flecha"><!--flecha azul-->
@@ -106,5 +110,69 @@
 				</div>
 			</div>
 		</section>
+		<section>
+			<div class="container-fluid">
+				<div class="row ">
+					<div class="col-md-6 col-xs-12 fdo-3 t-pdg"><!--aqui va un background-->
+						
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<hr>
+						<h2 id="txt-blk">Lo quiero ¿Qué hago?</h2>
+						<h4>Paso 1: Envíanos tu link</h4>
+						<p>Al darle click al botón de prueba, coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
+						<h4>Paso 2: Describe a tu público objetivo</h4>
+						<p>Describe las acciones que quieres que evaluemos por ejemplo:
+							<ul>
+								<li>A primera vista de ¿Qué crees que trata la página?</li>
+								<li>Busca el botón de inscribirte o comprar</li>
+								<li>¿Es fácil o difícil leer los textos?</li>
+							</ul>
+							Puedes preguntar como las que te mostramos.
+						</p>
+						<h4>Paso 3: Recibe un video y el feedback completo</h4>
+						<p>Recibe un combo de 7 videos y un informe detallado con las captaciones de usabilidad de tu producto.</p>	
+					</div> 
+				</div>
+				<div class="row t-pdg">
+					<div class="col-md-6 col-xs-12">
+						<h3>Por qué usar<img class="logo-2" src="image/logo-2.jpg"></h3>
+						<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con User Testing 360, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con User Testing 360 podrás entender:
+						<ul>
+							<li>¿Cómo tu público objetivo verdaderamente usa tu producto?</li>
+							<li>¿Qué se hace fácil o difícil al navegar en tu producto?</li>
+							<li>¿Qué es lo que tu público quiere hacer y tal vez no obtiene o consigue?</li>
+						</ul>
+						<a name="">"User Testing 360"</a> te ayudará a responder estas preguntas y muchas más. Es el toque final perfecto para tu página o producto digital.</p>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive" src="image/banner.jpg" alt="banner">
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row fdo-4 pdg"><!--div azul-->
+            		<div class="col-md-6 col-xs-12 text-center">
+            			<h2>PRUEBA GRATUITA</h2>
+            		</div>
+            		<div class="col-md-6 col-xs-12 text-center ">
+            			<button class="btnn-2">Pruebalo gratis</button>
+            		</div>
+            	</div>
+			
+		</section>
+		<footer>
+				<div class="row fdo-5 pdg">
+            		<div class="col-md-9 col-xs-12">
+            			<p><small>Escribenos a:</small></p>
+            			<a name="lgo">experienciadeusuario.lab@gmail.com</a>
+            			<p><small>Tel.: 989637925</small></p>	
+            		</div>
+            		<div class="col-md-3 col-xs-12">
+            			<p><small>Copyright 2015 - User Testing 360</small></p>
+            		</div>
+            	</div>
+			</div>
+		</footer>	
 	</body>
 </html>

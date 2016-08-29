@@ -2,11 +2,16 @@
 
 header{
 	background-image: url("../image/large.jpg");
-	background-size:contain; 
+	background-size:cover; 
 	background-repeat: no-repeat;
 	opacity: 0.9;
+	
 }
-h1{padding-top: 20%;}
+h1{
+	padding-top: 10%;
+	padding-bottom: 5%;
+
+}
 
 h1,h2{
 	color: white;
@@ -28,17 +33,33 @@ h4{color: #7893AD;}
 
 }
 .fdo-2{
-	background-color: #587EB7;
+	background-color: #4A72B9;
+	opacity: 0.9;
+}
+.btnn-1{
+	background-color: #fff;
+	position: relative;
+	left: 50%;
+
 }
 
 .btnn-2{
 	background-color: transparent;
-	padding: 1%;
+	padding: 2%;
 	border-radius: 2%;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	color: #fff;
 	float: left;
 	margin-top: 20px;
+	font-size: 1.5em;
+}
+.cir{
+	width: 50%;
+	height: 20%;
+	box-shadow:1px 1px 10px;
+	border-radius: 100%;
+	color: #587EB7;
+	background-color: #FFF; 
 }
 
 .pdg-2{/*es el padding de la flecha azul*/
@@ -46,6 +67,7 @@ h4{color: #7893AD;}
 	
 }
 .pdg{ padding: 3%; }
+
 .t-pdg{
 	margin-top:4%; 
 }
@@ -59,10 +81,25 @@ h4{color: #7893AD;}
 	top: -70px;
 	left: 50%;
 }
-
 .fdo-3{/*es el fondo del col-6*/
 	background-image: url("../image/sec-2.jpg");
 	background-size: contain;
 	background-repeat:no-repeat; 
 	height: 50%;
 	width: 50%;
+}
+#text-blk {
+	color: black !important;
+	font-size: 2em;
+}
+.fdo-4{
+	background-color: #74A3DB;
+}
+.fdo-5{
+	background-color: #000;
+	opacity: 0.8;
+}
+
+.fdo-5 small{
+	color: #fff;
+}
